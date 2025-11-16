@@ -1,0 +1,70 @@
+h2 {
+    display: block;
+    text-align: center;
+}
+
+aside {
+    font-size: 120%;
+    padding: 5px 0;
+    text-align: center;
+    width: 100%;
+}
+
+aside a {
+    color: #03522c;
+    display: block;
+    padding: 5px 0;
+    text-decoration: none;
+    width: 100%;
+}
+aside a:hover {
+    background:linear-gradient(90deg, rgb(140, 196, 239), rgb(83, 159, 241) 70%);
+    color: white;
+}
+aside a:focus {
+    background:linear-gradient(90deg, rgb(140, 196, 239), rgb(83, 159, 241) 70%);
+    color: white;
+}
+#main_image {
+    width: 100%;
+}
+article {
+    color: #03522c;
+    font-size: 120%;
+    padding: 0 10px;
+}
+
+article a {
+    color: #b4040d;
+    padding: 5px;
+    text-decoration: none;
+}
+article a:hover {
+    background:linear-gradient(90deg, rgb(140, 196, 239), rgb(83, 159, 241) 70%);
+    color: white;
+}
+article a:focus {
+    background:linear-gradient(90deg, rgb(140, 196, 239), rgb(83, 159, 241) 70%);
+    color: white;
+    text-decoration: none;
+}
+@media only screen and (min-width: 768px) {
+    main {
+        display: flex;
+    }
+
+    aside {
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        float: left;
+        justify-content: center;
+        width: 30%;
+    }
+
+    section {
+        display: inline;
+        float: right;
+        width: 70%;
+    }
+}

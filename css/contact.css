@@ -1,0 +1,67 @@
+form {
+    border-radius: 5px;
+    background-color: #e1f2ea;
+    margin: 20px auto;
+    padding: 35px;
+    width: 90%;
+}
+
+form textarea {
+    width: 100%;
+    height: 150px;
+}
+
+input {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+button {
+    width: 100%;
+    background:linear-gradient(90deg, rgb(140, 196, 239), rgb(83, 159, 241) 70%);
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover, button:focus {
+    filter: brightness(125%);
+}
+
+footer { 
+    background: linear-gradient(90deg, rgb(110, 108, 108), rgb(73, 70, 70) 90%);
+    color: white;
+    padding: 16px 32px ;
+    text-align: center;
+    font-size: 15px;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    
+
+}
+
+@media only screen and (min-width: 600px) {
+    form {
+        width: 70%;
+    }
+}
+@media only screen and (min-width: 768px) {
+    form {
+        width: 50%;
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+    form {
+        width: 30%;
+    }
+}
